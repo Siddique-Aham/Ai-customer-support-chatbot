@@ -1,0 +1,31 @@
+{
+  "num_labels": 12,
+  "id2label": {
+    "0": "intent_0",
+    "1": "intent_1",
+    "2": "intent_2",
+    "3": "intent_3",
+    "4": "intent_4",
+    "5": "intent_5",
+    "6": "intent_6",
+    "7": "intent_7",
+    "8": "intent_8",
+    "9": "intent_9",
+    "10": "intent_10",
+    "11": "intent_11"
+  },
+  "label2id": {
+    "intent_0": 0,
+    "intent_1": 1,
+    "intent_2": 2,
+    "intent_3": 3,
+    "intent_4": 4,
+    "intent_5": 5,
+    "intent_6": 6,
+    "intent_7": 7,
+    "intent_8": 8,
+    "intent_9": 9,
+    "intent_10": 10,
+    "intent_11": 11
+  }
+}

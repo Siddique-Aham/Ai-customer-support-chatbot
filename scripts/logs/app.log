@@ -1,0 +1,304 @@
+2025-08-30 21:50:38,000 - customer_support_chatbot - INFO - Starting model training process
+2025-08-30 21:50:38,000 - customer_support_chatbot - INFO - Cleaning dataset
+2025-08-30 21:50:38,000 - customer_support_chatbot - INFO - Dataset cleaned. Original: 15 rows, Cleaned: 15 rows
+2025-08-30 21:50:38,780 - customer_support_chatbot - INFO - Preprocessing dataset
+2025-08-30 21:50:40,451 - customer_support_chatbot - INFO - Dataset preprocessing completed
+2025-08-30 21:50:40,451 - customer_support_chatbot - INFO - Fitted label encoder with 12 intents
+2025-08-30 21:50:40,451 - customer_support_chatbot - INFO - Encoded labels type: <class 'numpy.int64'>, Values: [ 7  7  6  3  9  9 10  2  8 11 11  4  1  0  5]
+2025-08-30 21:50:41,273 - customer_support_chatbot - INFO - Training intent classification model
+2025-08-30 21:50:41,276 - customer_support_chatbot - INFO - Unique labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], Count: 12
+2025-08-30 21:50:41,276 - customer_support_chatbot - INFO - Preparing data for intent classification
+2025-08-30 21:50:41,276 - customer_support_chatbot - INFO - Labels received: [7 7 6 3 9], Type: <class 'numpy.int64'>
+2025-08-30 21:50:41,280 - customer_support_chatbot - INFO - Labels converted to tensor: tensor([7, 7, 6, 3, 9])
+2025-08-30 21:50:45,707 - customer_support_chatbot - INFO - Epoch 1, Batch 0, Loss: 2.5622
+2025-08-30 21:50:45,707 - customer_support_chatbot - INFO - Epoch 1/10, Average Loss: 2.5622
+2025-08-30 21:50:47,027 - customer_support_chatbot - INFO - Epoch 2, Batch 0, Loss: 2.4593
+2025-08-30 21:50:47,027 - customer_support_chatbot - INFO - Epoch 2/10, Average Loss: 2.4593
+2025-08-30 21:50:48,496 - customer_support_chatbot - INFO - Epoch 3, Batch 0, Loss: 2.4211
+2025-08-30 21:50:48,497 - customer_support_chatbot - INFO - Epoch 3/10, Average Loss: 2.4211
+2025-08-30 21:50:49,888 - customer_support_chatbot - INFO - Epoch 4, Batch 0, Loss: 2.3907
+2025-08-30 21:50:49,888 - customer_support_chatbot - INFO - Epoch 4/10, Average Loss: 2.3907
+2025-08-30 21:50:51,365 - customer_support_chatbot - INFO - Epoch 5, Batch 0, Loss: 2.3206
+2025-08-30 21:50:51,381 - customer_support_chatbot - INFO - Epoch 5/10, Average Loss: 2.3206
+2025-08-30 21:50:52,803 - customer_support_chatbot - INFO - Epoch 6, Batch 0, Loss: 2.2725
+2025-08-30 21:50:52,803 - customer_support_chatbot - INFO - Epoch 6/10, Average Loss: 2.2725
+2025-08-30 21:50:54,327 - customer_support_chatbot - INFO - Epoch 7, Batch 0, Loss: 2.2151
+2025-08-30 21:50:54,327 - customer_support_chatbot - INFO - Epoch 7/10, Average Loss: 2.2151
+2025-08-30 21:50:55,801 - customer_support_chatbot - INFO - Epoch 8, Batch 0, Loss: 2.0941
+2025-08-30 21:50:55,801 - customer_support_chatbot - INFO - Epoch 8/10, Average Loss: 2.0941
+2025-08-30 21:50:57,357 - customer_support_chatbot - INFO - Epoch 9, Batch 0, Loss: 2.1537
+2025-08-30 21:50:57,357 - customer_support_chatbot - INFO - Epoch 9/10, Average Loss: 2.1537
+2025-08-30 21:50:58,846 - customer_support_chatbot - INFO - Epoch 10, Batch 0, Loss: 2.1676
+2025-08-30 21:50:58,862 - customer_support_chatbot - INFO - Epoch 10/10, Average Loss: 2.1676
+2025-08-30 21:50:58,862 - customer_support_chatbot - INFO - Intent classification model training completed
+2025-08-30 21:50:59,999 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 21:50:59,999 - customer_support_chatbot - INFO - Files created: ['config.json', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt']
+2025-08-30 21:50:59,999 - customer_support_chatbot - INFO - Intent classifier training completed successfully
+2025-08-30 21:51:00,650 - customer_support_chatbot - INFO - Training response generation model
+2025-08-30 21:51:00,650 - customer_support_chatbot - INFO - Preparing data for response generation
+2025-08-30 21:51:05,694 - customer_support_chatbot - INFO - Epoch 1/10
+2025-08-30 21:51:11,438 - customer_support_chatbot - INFO - Batch 0, Loss: 8.0626
+2025-08-30 21:51:11,456 - customer_support_chatbot - INFO - Epoch 1 Average Loss: 8.0626
+2025-08-30 21:51:11,462 - customer_support_chatbot - INFO - Epoch 2/10
+2025-08-30 21:51:15,780 - customer_support_chatbot - INFO - Batch 0, Loss: 7.8356
+2025-08-30 21:51:15,793 - customer_support_chatbot - INFO - Epoch 2 Average Loss: 7.8356
+2025-08-30 21:51:15,795 - customer_support_chatbot - INFO - Epoch 3/10
+2025-08-30 21:51:19,503 - customer_support_chatbot - INFO - Batch 0, Loss: 7.9939
+2025-08-30 21:51:19,503 - customer_support_chatbot - INFO - Epoch 3 Average Loss: 7.9939
+2025-08-30 21:51:19,503 - customer_support_chatbot - INFO - Epoch 4/10
+2025-08-30 21:51:22,857 - customer_support_chatbot - INFO - Batch 0, Loss: 7.9101
+2025-08-30 21:51:22,857 - customer_support_chatbot - INFO - Epoch 4 Average Loss: 7.9101
+2025-08-30 21:51:22,873 - customer_support_chatbot - INFO - Epoch 5/10
+2025-08-30 21:51:27,265 - customer_support_chatbot - INFO - Batch 0, Loss: 7.6080
+2025-08-30 21:51:27,281 - customer_support_chatbot - INFO - Epoch 5 Average Loss: 7.6080
+2025-08-30 21:51:27,281 - customer_support_chatbot - INFO - Epoch 6/10
+2025-08-30 21:51:31,334 - customer_support_chatbot - INFO - Batch 0, Loss: 7.1914
+2025-08-30 21:51:31,343 - customer_support_chatbot - INFO - Epoch 6 Average Loss: 7.1914
+2025-08-30 21:51:31,343 - customer_support_chatbot - INFO - Epoch 7/10
+2025-08-30 21:51:35,533 - customer_support_chatbot - INFO - Batch 0, Loss: 7.4343
+2025-08-30 21:51:35,550 - customer_support_chatbot - INFO - Epoch 7 Average Loss: 7.4343
+2025-08-30 21:51:35,550 - customer_support_chatbot - INFO - Epoch 8/10
+2025-08-30 21:51:39,467 - customer_support_chatbot - INFO - Batch 0, Loss: 7.3607
+2025-08-30 21:51:39,476 - customer_support_chatbot - INFO - Epoch 8 Average Loss: 7.3607
+2025-08-30 21:51:39,478 - customer_support_chatbot - INFO - Epoch 9/10
+2025-08-30 21:51:43,322 - customer_support_chatbot - INFO - Batch 0, Loss: 7.7355
+2025-08-30 21:51:43,342 - customer_support_chatbot - INFO - Epoch 9 Average Loss: 7.7355
+2025-08-30 21:51:43,344 - customer_support_chatbot - INFO - Epoch 10/10
+2025-08-30 21:51:47,928 - customer_support_chatbot - INFO - Batch 0, Loss: 7.4661
+2025-08-30 21:51:47,937 - customer_support_chatbot - INFO - Epoch 10 Average Loss: 7.4661
+2025-08-30 21:51:47,937 - customer_support_chatbot - INFO - Response generation model training completed
+2025-08-30 21:51:50,274 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 21:51:50,275 - customer_support_chatbot - INFO - Response generator training completed successfully
+2025-08-30 21:51:50,278 - customer_support_chatbot - INFO - Training fallback mechanism
+2025-08-30 21:51:50,326 - customer_support_chatbot - INFO - Fallback mechanism training completed
+2025-08-30 21:51:50,386 - customer_support_chatbot - INFO - Fallback model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 21:51:50,386 - customer_support_chatbot - INFO - Fallback mechanism training completed successfully
+2025-08-30 21:51:50,386 - customer_support_chatbot - INFO - Model training process completed
+2025-08-30 21:59:27,330 - customer_support_chatbot - INFO - Starting model training process
+2025-08-30 21:59:27,335 - customer_support_chatbot - INFO - Cleaning dataset
+2025-08-30 21:59:27,345 - customer_support_chatbot - INFO - Dataset cleaned. Original: 15 rows, Cleaned: 15 rows
+2025-08-30 21:59:28,320 - customer_support_chatbot - INFO - Preprocessing dataset
+2025-08-30 21:59:30,511 - customer_support_chatbot - INFO - Dataset preprocessing completed
+2025-08-30 21:59:30,513 - customer_support_chatbot - INFO - Fitted label encoder with 12 intents
+2025-08-30 21:59:30,513 - customer_support_chatbot - INFO - Encoded labels type: <class 'numpy.int64'>, Values: [ 7  7  6  3  9  9 10  2  8 11 11  4  1  0  5]
+2025-08-30 21:59:31,895 - customer_support_chatbot - INFO - Training intent classification model
+2025-08-30 21:59:31,895 - customer_support_chatbot - INFO - Unique labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], Count: 12
+2025-08-30 21:59:31,895 - customer_support_chatbot - INFO - Preparing data for intent classification
+2025-08-30 21:59:31,895 - customer_support_chatbot - INFO - Labels received: [7 7 6 3 9], Type: <class 'numpy.int64'>
+2025-08-30 21:59:31,912 - customer_support_chatbot - INFO - Labels converted to tensor: tensor([7, 7, 6, 3, 9])
+2025-08-30 21:59:36,731 - customer_support_chatbot - INFO - Epoch 1, Batch 0, Loss: 2.6410
+2025-08-30 21:59:36,731 - customer_support_chatbot - INFO - Epoch 1/10, Average Loss: 2.6410
+2025-08-30 21:59:38,071 - customer_support_chatbot - INFO - Epoch 2, Batch 0, Loss: 2.5623
+2025-08-30 21:59:38,071 - customer_support_chatbot - INFO - Epoch 2/10, Average Loss: 2.5623
+2025-08-30 21:59:39,371 - customer_support_chatbot - INFO - Epoch 3, Batch 0, Loss: 2.5014
+2025-08-30 21:59:39,371 - customer_support_chatbot - INFO - Epoch 3/10, Average Loss: 2.5014
+2025-08-30 21:59:40,601 - customer_support_chatbot - INFO - Epoch 4, Batch 0, Loss: 2.4491
+2025-08-30 21:59:40,602 - customer_support_chatbot - INFO - Epoch 4/10, Average Loss: 2.4491
+2025-08-30 21:59:41,881 - customer_support_chatbot - INFO - Epoch 5, Batch 0, Loss: 2.3571
+2025-08-30 21:59:41,883 - customer_support_chatbot - INFO - Epoch 5/10, Average Loss: 2.3571
+2025-08-30 21:59:43,183 - customer_support_chatbot - INFO - Epoch 6, Batch 0, Loss: 2.3442
+2025-08-30 21:59:43,183 - customer_support_chatbot - INFO - Epoch 6/10, Average Loss: 2.3442
+2025-08-30 21:59:44,422 - customer_support_chatbot - INFO - Epoch 7, Batch 0, Loss: 2.2119
+2025-08-30 21:59:44,422 - customer_support_chatbot - INFO - Epoch 7/10, Average Loss: 2.2119
+2025-08-30 21:59:45,861 - customer_support_chatbot - INFO - Epoch 8, Batch 0, Loss: 2.2268
+2025-08-30 21:59:45,861 - customer_support_chatbot - INFO - Epoch 8/10, Average Loss: 2.2268
+2025-08-30 21:59:47,291 - customer_support_chatbot - INFO - Epoch 9, Batch 0, Loss: 2.1613
+2025-08-30 21:59:47,295 - customer_support_chatbot - INFO - Epoch 9/10, Average Loss: 2.1613
+2025-08-30 21:59:48,841 - customer_support_chatbot - INFO - Epoch 10, Batch 0, Loss: 2.0737
+2025-08-30 21:59:48,841 - customer_support_chatbot - INFO - Epoch 10/10, Average Loss: 2.0737
+2025-08-30 21:59:48,841 - customer_support_chatbot - INFO - Intent classification model training completed
+2025-08-30 21:59:49,792 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 21:59:49,792 - customer_support_chatbot - INFO - Files created: ['config.json', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt']
+2025-08-30 21:59:49,792 - customer_support_chatbot - INFO - Intent classifier training completed successfully
+2025-08-30 21:59:51,061 - customer_support_chatbot - INFO - Training response generation model
+2025-08-30 21:59:51,070 - customer_support_chatbot - INFO - Preparing data for response generation
+2025-08-30 21:59:55,722 - customer_support_chatbot - INFO - Epoch 1/10
+2025-08-30 22:00:02,062 - customer_support_chatbot - INFO - Batch 0, Loss: 7.5200
+2025-08-30 22:00:02,084 - customer_support_chatbot - INFO - Epoch 1 Average Loss: 7.5200
+2025-08-30 22:00:02,084 - customer_support_chatbot - INFO - Epoch 2/10
+2025-08-30 22:00:07,530 - customer_support_chatbot - INFO - Batch 0, Loss: 8.1051
+2025-08-30 22:00:07,541 - customer_support_chatbot - INFO - Epoch 2 Average Loss: 8.1051
+2025-08-30 22:00:07,541 - customer_support_chatbot - INFO - Epoch 3/10
+2025-08-30 22:00:12,801 - customer_support_chatbot - INFO - Batch 0, Loss: 7.6598
+2025-08-30 22:00:12,817 - customer_support_chatbot - INFO - Epoch 3 Average Loss: 7.6598
+2025-08-30 22:00:12,820 - customer_support_chatbot - INFO - Epoch 4/10
+2025-08-30 22:00:17,326 - customer_support_chatbot - INFO - Batch 0, Loss: 7.5687
+2025-08-30 22:00:17,344 - customer_support_chatbot - INFO - Epoch 4 Average Loss: 7.5687
+2025-08-30 22:00:17,344 - customer_support_chatbot - INFO - Epoch 5/10
+2025-08-30 22:00:22,142 - customer_support_chatbot - INFO - Batch 0, Loss: 7.5617
+2025-08-30 22:00:22,162 - customer_support_chatbot - INFO - Epoch 5 Average Loss: 7.5617
+2025-08-30 22:00:22,162 - customer_support_chatbot - INFO - Epoch 6/10
+2025-08-30 22:00:27,081 - customer_support_chatbot - INFO - Batch 0, Loss: 7.3386
+2025-08-30 22:00:27,092 - customer_support_chatbot - INFO - Epoch 6 Average Loss: 7.3386
+2025-08-30 22:00:27,100 - customer_support_chatbot - INFO - Epoch 7/10
+2025-08-30 22:00:31,932 - customer_support_chatbot - INFO - Batch 0, Loss: 7.5858
+2025-08-30 22:00:31,941 - customer_support_chatbot - INFO - Epoch 7 Average Loss: 7.5858
+2025-08-30 22:00:31,941 - customer_support_chatbot - INFO - Epoch 8/10
+2025-08-30 22:00:36,291 - customer_support_chatbot - INFO - Batch 0, Loss: 7.5227
+2025-08-30 22:00:36,301 - customer_support_chatbot - INFO - Epoch 8 Average Loss: 7.5227
+2025-08-30 22:00:36,301 - customer_support_chatbot - INFO - Epoch 9/10
+2025-08-30 22:00:38,703 - customer_support_chatbot - INFO - Batch 0, Loss: 7.4883
+2025-08-30 22:00:38,708 - customer_support_chatbot - INFO - Epoch 9 Average Loss: 7.4883
+2025-08-30 22:00:38,708 - customer_support_chatbot - INFO - Epoch 10/10
+2025-08-30 22:00:41,021 - customer_support_chatbot - INFO - Batch 0, Loss: 7.0048
+2025-08-30 22:00:41,023 - customer_support_chatbot - INFO - Epoch 10 Average Loss: 7.0048
+2025-08-30 22:00:41,023 - customer_support_chatbot - INFO - Response generation model training completed
+2025-08-30 22:00:41,731 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:00:41,731 - customer_support_chatbot - INFO - Response generator training completed successfully
+2025-08-30 22:00:41,731 - customer_support_chatbot - INFO - Training fallback mechanism
+2025-08-30 22:00:41,740 - customer_support_chatbot - INFO - Fallback mechanism training completed
+2025-08-30 22:00:41,750 - customer_support_chatbot - INFO - Fallback model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:00:41,750 - customer_support_chatbot - INFO - Fallback mechanism training completed successfully
+2025-08-30 22:00:41,750 - customer_support_chatbot - INFO - Model training process completed
+2025-08-30 22:22:27,229 - customer_support_chatbot - INFO - Starting model training process
+2025-08-30 22:22:27,229 - customer_support_chatbot - INFO - Cleaning dataset
+2025-08-30 22:22:27,229 - customer_support_chatbot - INFO - Dataset cleaned. Original: 15 rows, Cleaned: 15 rows
+2025-08-30 22:22:27,635 - customer_support_chatbot - INFO - Preprocessing dataset
+2025-08-30 22:22:28,602 - customer_support_chatbot - INFO - Dataset preprocessing completed
+2025-08-30 22:22:28,602 - customer_support_chatbot - INFO - Fitted label encoder with 12 intents
+2025-08-30 22:22:28,602 - customer_support_chatbot - INFO - Encoded labels type: <class 'numpy.int64'>, Values: [ 7  7  6  3  9  9 10  2  8 11 11  4  1  0  5]
+2025-08-30 22:22:29,076 - customer_support_chatbot - INFO - Training intent classification model
+2025-08-30 22:22:29,076 - customer_support_chatbot - INFO - Unique labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], Count: 12
+2025-08-30 22:22:29,076 - customer_support_chatbot - INFO - Preparing data for intent classification
+2025-08-30 22:22:29,076 - customer_support_chatbot - INFO - Labels received: [7 7 6 3 9], Type: <class 'numpy.int64'>
+2025-08-30 22:22:29,076 - customer_support_chatbot - INFO - Labels converted to tensor: tensor([7, 7, 6, 3, 9])
+2025-08-30 22:22:31,146 - customer_support_chatbot - INFO - Epoch 1, Batch 0, Loss: 2.5285
+2025-08-30 22:22:31,162 - customer_support_chatbot - INFO - Epoch 1/10, Average Loss: 2.5285
+2025-08-30 22:22:32,039 - customer_support_chatbot - INFO - Epoch 2, Batch 0, Loss: 2.4130
+2025-08-30 22:22:32,039 - customer_support_chatbot - INFO - Epoch 2/10, Average Loss: 2.4130
+2025-08-30 22:22:32,852 - customer_support_chatbot - INFO - Epoch 3, Batch 0, Loss: 2.4583
+2025-08-30 22:22:32,852 - customer_support_chatbot - INFO - Epoch 3/10, Average Loss: 2.4583
+2025-08-30 22:22:33,653 - customer_support_chatbot - INFO - Epoch 4, Batch 0, Loss: 2.3546
+2025-08-30 22:22:33,653 - customer_support_chatbot - INFO - Epoch 4/10, Average Loss: 2.3546
+2025-08-30 22:22:34,421 - customer_support_chatbot - INFO - Epoch 5, Batch 0, Loss: 2.3580
+2025-08-30 22:22:34,421 - customer_support_chatbot - INFO - Epoch 5/10, Average Loss: 2.3580
+2025-08-30 22:22:35,175 - customer_support_chatbot - INFO - Epoch 6, Batch 0, Loss: 2.2614
+2025-08-30 22:22:35,175 - customer_support_chatbot - INFO - Epoch 6/10, Average Loss: 2.2614
+2025-08-30 22:22:35,951 - customer_support_chatbot - INFO - Epoch 7, Batch 0, Loss: 2.2303
+2025-08-30 22:22:35,953 - customer_support_chatbot - INFO - Epoch 7/10, Average Loss: 2.2303
+2025-08-30 22:22:36,727 - customer_support_chatbot - INFO - Epoch 8, Batch 0, Loss: 2.2070
+2025-08-30 22:22:36,727 - customer_support_chatbot - INFO - Epoch 8/10, Average Loss: 2.2070
+2025-08-30 22:22:37,483 - customer_support_chatbot - INFO - Epoch 9, Batch 0, Loss: 2.1632
+2025-08-30 22:22:37,483 - customer_support_chatbot - INFO - Epoch 9/10, Average Loss: 2.1632
+2025-08-30 22:22:38,231 - customer_support_chatbot - INFO - Epoch 10, Batch 0, Loss: 2.0833
+2025-08-30 22:22:38,231 - customer_support_chatbot - INFO - Epoch 10/10, Average Loss: 2.0833
+2025-08-30 22:22:38,231 - customer_support_chatbot - INFO - Intent classification model training completed
+2025-08-30 22:22:38,732 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:22:38,732 - customer_support_chatbot - INFO - Files created: ['config.json', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt']
+2025-08-30 22:22:38,732 - customer_support_chatbot - INFO - Intent classifier training completed successfully
+2025-08-30 22:22:39,079 - customer_support_chatbot - INFO - Training response generation model
+2025-08-30 22:22:39,080 - customer_support_chatbot - INFO - Preparing data for response generation
+2025-08-30 22:22:41,227 - customer_support_chatbot - INFO - Epoch 1/10
+2025-08-30 22:22:43,896 - customer_support_chatbot - INFO - Batch 0, Loss: 8.0187
+2025-08-30 22:22:43,896 - customer_support_chatbot - INFO - Epoch 1 Average Loss: 8.0187
+2025-08-30 22:22:43,896 - customer_support_chatbot - INFO - Epoch 2/10
+2025-08-30 22:22:46,356 - customer_support_chatbot - INFO - Batch 0, Loss: 7.4781
+2025-08-30 22:22:46,356 - customer_support_chatbot - INFO - Epoch 2 Average Loss: 7.4781
+2025-08-30 22:22:46,356 - customer_support_chatbot - INFO - Epoch 3/10
+2025-08-30 22:22:48,661 - customer_support_chatbot - INFO - Batch 0, Loss: 7.6066
+2025-08-30 22:22:48,661 - customer_support_chatbot - INFO - Epoch 3 Average Loss: 7.6066
+2025-08-30 22:22:48,661 - customer_support_chatbot - INFO - Epoch 4/10
+2025-08-30 22:22:50,939 - customer_support_chatbot - INFO - Batch 0, Loss: 8.0001
+2025-08-30 22:22:50,939 - customer_support_chatbot - INFO - Epoch 4 Average Loss: 8.0001
+2025-08-30 22:22:50,939 - customer_support_chatbot - INFO - Epoch 5/10
+2025-08-30 22:22:53,223 - customer_support_chatbot - INFO - Batch 0, Loss: 7.5940
+2025-08-30 22:22:53,239 - customer_support_chatbot - INFO - Epoch 5 Average Loss: 7.5940
+2025-08-30 22:22:53,239 - customer_support_chatbot - INFO - Epoch 6/10
+2025-08-30 22:22:55,619 - customer_support_chatbot - INFO - Batch 0, Loss: 7.8171
+2025-08-30 22:22:55,620 - customer_support_chatbot - INFO - Epoch 6 Average Loss: 7.8171
+2025-08-30 22:22:55,620 - customer_support_chatbot - INFO - Epoch 7/10
+2025-08-30 22:22:58,052 - customer_support_chatbot - INFO - Batch 0, Loss: 7.3742
+2025-08-30 22:22:58,052 - customer_support_chatbot - INFO - Epoch 7 Average Loss: 7.3742
+2025-08-30 22:22:58,052 - customer_support_chatbot - INFO - Epoch 8/10
+2025-08-30 22:23:00,328 - customer_support_chatbot - INFO - Batch 0, Loss: 7.6038
+2025-08-30 22:23:00,328 - customer_support_chatbot - INFO - Epoch 8 Average Loss: 7.6038
+2025-08-30 22:23:00,328 - customer_support_chatbot - INFO - Epoch 9/10
+2025-08-30 22:23:02,583 - customer_support_chatbot - INFO - Batch 0, Loss: 7.1465
+2025-08-30 22:23:02,599 - customer_support_chatbot - INFO - Epoch 9 Average Loss: 7.1465
+2025-08-30 22:23:02,599 - customer_support_chatbot - INFO - Epoch 10/10
+2025-08-30 22:23:04,905 - customer_support_chatbot - INFO - Batch 0, Loss: 7.7007
+2025-08-30 22:23:04,920 - customer_support_chatbot - INFO - Epoch 10 Average Loss: 7.7007
+2025-08-30 22:23:04,920 - customer_support_chatbot - INFO - Response generation model training completed
+2025-08-30 22:23:05,572 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:23:05,572 - customer_support_chatbot - INFO - Response generator training completed successfully
+2025-08-30 22:23:05,572 - customer_support_chatbot - INFO - Training fallback mechanism
+2025-08-30 22:23:05,572 - customer_support_chatbot - INFO - Fallback mechanism training completed
+2025-08-30 22:23:05,590 - customer_support_chatbot - INFO - Fallback model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:23:05,590 - customer_support_chatbot - INFO - Fallback mechanism training completed successfully
+2025-08-30 22:23:05,590 - customer_support_chatbot - INFO - Model training process completed
+2025-08-31 16:10:39,873 - customer_support_chatbot - INFO - Starting model training process
+2025-08-31 16:10:39,880 - customer_support_chatbot - INFO - Cleaning dataset
+2025-08-31 16:10:39,903 - customer_support_chatbot - INFO - Dataset cleaned. Original: 15 rows, Cleaned: 15 rows
+2025-08-31 16:10:41,222 - customer_support_chatbot - INFO - Preprocessing dataset
+2025-08-31 16:10:44,992 - customer_support_chatbot - INFO - Dataset preprocessing completed
+2025-08-31 16:10:44,992 - customer_support_chatbot - INFO - Fitted label encoder with 12 intents
+2025-08-31 16:10:44,992 - customer_support_chatbot - INFO - Encoded labels type: <class 'numpy.int64'>, Values: [ 7  7  6  3  9  9 10  2  8 11 11  4  1  0  5]
+2025-08-31 16:10:47,773 - customer_support_chatbot - INFO - Training intent classification model
+2025-08-31 16:10:47,773 - customer_support_chatbot - INFO - Unique labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], Count: 12
+2025-08-31 16:10:47,774 - customer_support_chatbot - INFO - Preparing data for intent classification
+2025-08-31 16:10:47,774 - customer_support_chatbot - INFO - Labels received: [7 7 6 3 9], Type: <class 'numpy.int64'>
+2025-08-31 16:10:47,872 - customer_support_chatbot - INFO - Labels converted to tensor: tensor([7, 7, 6, 3, 9])
+2025-08-31 16:10:54,236 - customer_support_chatbot - INFO - Epoch 1, Batch 0, Loss: 2.4993
+2025-08-31 16:10:54,239 - customer_support_chatbot - INFO - Epoch 1/10, Average Loss: 2.4993
+2025-08-31 16:10:56,596 - customer_support_chatbot - INFO - Epoch 2, Batch 0, Loss: 2.4038
+2025-08-31 16:10:56,605 - customer_support_chatbot - INFO - Epoch 2/10, Average Loss: 2.4038
+2025-08-31 16:10:57,825 - customer_support_chatbot - INFO - Epoch 3, Batch 0, Loss: 2.3913
+2025-08-31 16:10:57,826 - customer_support_chatbot - INFO - Epoch 3/10, Average Loss: 2.3913
+2025-08-31 16:10:59,061 - customer_support_chatbot - INFO - Epoch 4, Batch 0, Loss: 2.3593
+2025-08-31 16:10:59,062 - customer_support_chatbot - INFO - Epoch 4/10, Average Loss: 2.3593
+2025-08-31 16:11:00,297 - customer_support_chatbot - INFO - Epoch 5, Batch 0, Loss: 2.2811
+2025-08-31 16:11:00,297 - customer_support_chatbot - INFO - Epoch 5/10, Average Loss: 2.2811
+2025-08-31 16:11:01,518 - customer_support_chatbot - INFO - Epoch 6, Batch 0, Loss: 2.2785
+2025-08-31 16:11:01,519 - customer_support_chatbot - INFO - Epoch 6/10, Average Loss: 2.2785
+2025-08-31 16:11:02,739 - customer_support_chatbot - INFO - Epoch 7, Batch 0, Loss: 2.2983
+2025-08-31 16:11:02,739 - customer_support_chatbot - INFO - Epoch 7/10, Average Loss: 2.2983
+2025-08-31 16:11:03,905 - customer_support_chatbot - INFO - Epoch 8, Batch 0, Loss: 2.2325
+2025-08-31 16:11:03,906 - customer_support_chatbot - INFO - Epoch 8/10, Average Loss: 2.2325
+2025-08-31 16:11:05,137 - customer_support_chatbot - INFO - Epoch 9, Batch 0, Loss: 2.2160
+2025-08-31 16:11:05,137 - customer_support_chatbot - INFO - Epoch 9/10, Average Loss: 2.2160
+2025-08-31 16:11:06,352 - customer_support_chatbot - INFO - Epoch 10, Batch 0, Loss: 2.2068
+2025-08-31 16:11:06,352 - customer_support_chatbot - INFO - Epoch 10/10, Average Loss: 2.2068
+2025-08-31 16:11:06,352 - customer_support_chatbot - INFO - Intent classification model training completed
+2025-08-31 16:11:08,412 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-31 16:11:08,414 - customer_support_chatbot - INFO - Files created: ['config.json', 'model.safetensors', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt']
+2025-08-31 16:11:08,414 - customer_support_chatbot - INFO - Intent classifier training completed successfully
+2025-08-31 16:11:10,712 - customer_support_chatbot - INFO - Training response generation model
+2025-08-31 16:11:10,713 - customer_support_chatbot - INFO - Preparing data for response generation
+2025-08-31 16:11:15,859 - customer_support_chatbot - INFO - Epoch 1/10
+2025-08-31 16:11:21,209 - customer_support_chatbot - INFO - Batch 0, Loss: 8.2196
+2025-08-31 16:11:21,231 - customer_support_chatbot - INFO - Epoch 1 Average Loss: 8.2196
+2025-08-31 16:11:21,232 - customer_support_chatbot - INFO - Epoch 2/10
+2025-08-31 16:11:25,610 - customer_support_chatbot - INFO - Batch 0, Loss: 8.4031
+2025-08-31 16:11:25,642 - customer_support_chatbot - INFO - Epoch 2 Average Loss: 8.4031
+2025-08-31 16:11:25,642 - customer_support_chatbot - INFO - Epoch 3/10
+2025-08-31 16:11:29,690 - customer_support_chatbot - INFO - Batch 0, Loss: 7.9107
+2025-08-31 16:11:29,700 - customer_support_chatbot - INFO - Epoch 3 Average Loss: 7.9107
+2025-08-31 16:11:29,700 - customer_support_chatbot - INFO - Epoch 4/10
+2025-08-31 16:11:33,573 - customer_support_chatbot - INFO - Batch 0, Loss: 7.9407
+2025-08-31 16:11:33,601 - customer_support_chatbot - INFO - Epoch 4 Average Loss: 7.9407
+2025-08-31 16:11:33,602 - customer_support_chatbot - INFO - Epoch 5/10
+2025-08-31 16:11:37,589 - customer_support_chatbot - INFO - Batch 0, Loss: 7.1246
+2025-08-31 16:11:37,603 - customer_support_chatbot - INFO - Epoch 5 Average Loss: 7.1246
+2025-08-31 16:11:37,603 - customer_support_chatbot - INFO - Epoch 6/10
+2025-08-31 16:11:41,972 - customer_support_chatbot - INFO - Batch 0, Loss: 7.0637
+2025-08-31 16:11:41,980 - customer_support_chatbot - INFO - Epoch 6 Average Loss: 7.0637
+2025-08-31 16:11:41,980 - customer_support_chatbot - INFO - Epoch 7/10
+2025-08-31 16:11:46,343 - customer_support_chatbot - INFO - Batch 0, Loss: 7.3039
+2025-08-31 16:11:46,354 - customer_support_chatbot - INFO - Epoch 7 Average Loss: 7.3039
+2025-08-31 16:11:46,354 - customer_support_chatbot - INFO - Epoch 8/10
+2025-08-31 16:11:50,642 - customer_support_chatbot - INFO - Batch 0, Loss: 7.0214
+2025-08-31 16:11:50,670 - customer_support_chatbot - INFO - Epoch 8 Average Loss: 7.0214
+2025-08-31 16:11:50,670 - customer_support_chatbot - INFO - Epoch 9/10
+2025-08-31 16:11:55,698 - customer_support_chatbot - INFO - Batch 0, Loss: 7.1892
+2025-08-31 16:11:55,711 - customer_support_chatbot - INFO - Epoch 9 Average Loss: 7.1892
+2025-08-31 16:11:55,711 - customer_support_chatbot - INFO - Epoch 10/10
+2025-08-31 16:12:01,859 - customer_support_chatbot - INFO - Batch 0, Loss: 7.2091
+2025-08-31 16:12:01,876 - customer_support_chatbot - INFO - Epoch 10 Average Loss: 7.2091
+2025-08-31 16:12:01,876 - customer_support_chatbot - INFO - Response generation model training completed
+2025-08-31 16:12:04,132 - customer_support_chatbot - INFO - Model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-31 16:12:04,132 - customer_support_chatbot - INFO - Response generator training completed successfully
+2025-08-31 16:12:04,166 - customer_support_chatbot - INFO - Training fallback mechanism
+2025-08-31 16:12:04,316 - customer_support_chatbot - INFO - Fallback mechanism training completed
+2025-08-31 16:12:04,424 - customer_support_chatbot - INFO - Fallback model saved to C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-31 16:12:04,426 - customer_support_chatbot - INFO - Fallback mechanism training completed successfully
+2025-08-31 16:12:04,426 - customer_support_chatbot - INFO - Model training process completed

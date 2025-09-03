@@ -1,0 +1,16 @@
+query,response
+get refund ?,You can request a refund through your account page or by contacting support.
+want return product,Returns can be initiated within 30 days of purchase. Visit our returns page for details.
+tell pricing,Our pricing varies by product. Please visit our website for current pricing information.
+business hour ?,"We're available Monday to Friday, 9 AM to 6 PM EST."
+product nt working,"Please try resetting the product. If that doesn't help, contact our technical support team."
+need technical support,Our technical support team can be reached at support@company.com or 555-0123.
+track order ?,You can track your order using the tracking number provided in your confirmation email.
+order arrive ?,Delivery typically takes 3-5 business days depending on your location.
+change shipping address ?,Shipping address changes can be made within 24 hours of ordering. Contact support for assistance.
+warranty ?,"Yes, most products come with a 1-year manufacturer's warranty."
+long warranty period ?,The standard warranty period is 12 months from the date of purchase.
+order missing item,Please contact us with your order number and we'll resolve this immediately.
+product arrived damaged,We apologize for the inconvenience. Please contact us for a replacement or refund.
+contact customer service ?,You can reach us at support@company.com or call 555-0123 during business hours.
+payment method accept ?,"We accept all major credit cards, PayPal, and Apple Pay."

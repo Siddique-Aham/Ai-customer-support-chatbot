@@ -1,0 +1,16 @@
+intents:
+  - refund
+  - product_info
+  - technical_support
+  - billing
+  - shipping
+  - warranty
+  - contact
+  - hours
+  - pricing
+  - tracking
+  - delivery
+  - payment
+  - missing_items
+  - damaged
+  - unknown

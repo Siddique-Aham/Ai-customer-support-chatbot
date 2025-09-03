@@ -1,0 +1,179 @@
+2025-08-30 03:26:20,201 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier/ does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier//None' for available files.
+2025-08-30 03:56:32,517 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier/ does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier//None' for available files.
+2025-08-30 04:04:38,046 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier/ does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier//None' for available files.
+2025-08-30 04:06:45,135 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier/ does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier//None' for available files.
+2025-08-30 04:08:26,120 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier/ does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier//None' for available files.
+2025-08-30 12:58:00,242 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier/ does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier//None' for available files.
+2025-08-30 13:00:50,409 - customer_support_chatbot - ERROR - Error loading model: models/intent_classifier does not appear to have a file named config.json. Checkout 'https://huggingface.co/models/intent_classifier/None' for available files.
+2025-08-30 13:06:39,437 - customer_support_chatbot - ERROR - Error loading model: ./models/intent_classifier does not appear to have a file named config.json. Checkout 'https://huggingface.co/./models/intent_classifier/None' for available files.
+2025-08-30 13:08:22,401 - customer_support_chatbot - ERROR - Error loading model: C:/resume projects & git/ai customer-support-chatbot/models/intent_classifier does not appear to have a file named config.json. Checkout 'https://huggingface.co/C:/resume projects & git/ai customer-support-chatbot/models/intent_classifier/None' for available files.
+2025-08-30 13:10:03,157 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:10:06,174 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:10:06,212 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:10:06,214 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:10:22,121 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:10:24,762 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:10:24,780 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:10:24,780 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:11:01,344 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:11:05,575 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:11:05,603 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:11:05,603 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:11:41,195 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:11:43,578 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:11:43,602 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:11:43,602 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:11:59,900 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:12:03,252 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:12:03,285 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:12:03,285 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:24:56,362 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:24:59,294 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:24:59,323 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:24:59,323 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:25:14,891 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:25:18,767 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:25:18,801 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:25:18,801 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:40:04,940 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:40:25,835 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:40:28,589 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:40:28,606 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:40:28,606 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:41:02,789 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:41:05,245 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:41:05,264 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:41:05,264 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:41:30,542 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:41:32,873 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:41:32,889 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:41:32,902 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:41:51,205 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:41:55,761 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:41:55,800 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:41:55,800 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:43:42,627 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:43:45,287 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:43:45,306 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:43:45,306 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:44:03,610 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:44:07,122 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:44:07,137 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:44:07,137 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:52:10,550 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:52:12,688 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:52:12,715 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:52:12,715 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:52:27,669 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 13:52:32,011 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 13:52:32,048 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 13:52:32,048 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 13:52:49,703 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1125
+2025-08-30 13:53:22,392 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1177
+2025-08-30 13:54:50,460 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1102
+2025-08-30 14:05:22,693 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 14:05:26,419 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 14:05:26,449 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 14:05:26,450 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 14:05:44,135 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 14:05:48,454 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 14:05:48,487 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 14:05:48,487 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 14:06:57,002 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1378
+2025-08-30 14:07:17,924 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1331
+2025-08-30 14:08:11,042 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 14:08:13,483 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 14:08:13,500 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 14:08:13,500 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 14:08:31,557 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 14:08:35,930 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 14:08:35,962 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 14:08:35,964 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 14:08:53,434 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1168
+2025-08-30 14:09:07,173 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1359
+2025-08-30 14:09:14,357 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1160
+2025-08-30 14:09:16,592 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1237
+2025-08-30 14:09:17,749 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1272
+2025-08-30 14:09:30,752 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1037
+2025-08-30 20:52:10,986 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 20:52:13,486 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 20:52:13,558 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 20:52:13,558 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 20:52:27,385 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 20:52:29,703 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 20:52:29,725 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 20:52:29,725 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 20:56:00,005 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1311
+2025-08-30 20:56:12,000 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1097
+2025-08-30 20:59:23,993 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1397
+2025-08-30 21:00:01,510 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1476
+2025-08-30 21:00:27,582 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1047
+2025-08-30 21:00:46,628 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1184
+2025-08-30 21:01:08,679 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1086
+2025-08-30 21:03:18,824 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1253
+2025-08-30 21:07:29,475 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 21:07:31,566 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 21:07:31,600 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 21:07:31,600 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 21:07:45,992 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 21:07:48,358 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 21:07:48,376 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 21:07:48,376 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 21:08:19,924 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1415
+2025-08-30 21:11:39,855 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1320
+2025-08-30 21:11:50,435 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1409
+2025-08-30 21:11:59,222 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1071
+2025-08-30 21:52:30,663 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 21:52:35,298 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 21:52:35,393 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 21:52:35,393 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 21:52:53,563 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 21:52:56,410 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 21:52:56,431 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 21:52:56,431 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 21:53:13,031 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1010
+2025-08-30 22:00:57,060 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:00:58,449 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:00:58,481 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:00:58,481 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:01:04,534 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:01:05,945 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:01:05,954 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:01:05,954 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:01:22,783 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1485
+2025-08-30 22:01:34,487 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1610
+2025-08-30 22:06:23,078 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:06:24,450 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:06:24,461 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:06:24,461 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:06:30,599 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:06:32,017 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:06:32,032 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:06:32,032 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:06:43,911 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1204
+2025-08-30 22:17:12,406 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:17:13,782 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:17:13,794 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:17:13,795 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:17:20,207 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:17:21,613 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:17:21,627 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:17:21,628 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:23:25,113 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:23:26,553 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:23:26,587 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:23:26,587 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:23:34,071 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-30 22:23:35,576 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-30 22:23:35,587 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-30 22:23:35,588 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-30 22:24:07,436 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1181
+2025-08-31 16:16:27,089 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-31 16:16:30,273 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-31 16:16:30,361 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-31 16:16:30,361 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-31 16:16:45,968 - customer_support_chatbot - INFO - Intent classification model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\intent_classifier
+2025-08-31 16:16:48,882 - customer_support_chatbot - INFO - Response generation model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\response_generator
+2025-08-31 16:16:48,907 - customer_support_chatbot - INFO - Fallback model loaded from C:\resume projects & git\ai customer-support-chatbot\scripts\models\fallback
+2025-08-31 16:16:48,907 - customer_support_chatbot - INFO - Customer Support Chatbot initialized
+2025-08-31 16:17:10,049 - customer_support_chatbot - INFO - Intent: unknown, Confidence: 0.1478

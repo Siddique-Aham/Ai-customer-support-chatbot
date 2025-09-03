@@ -1,0 +1,24 @@
+responses:
+  refund: |
+    You can request a refund through your account page. 
+    For assistance, please provide your order number.
+  
+  product_info: |
+    Our products are designed with quality in mind. 
+    Could you specify which product you're interested in?
+  
+  technical_support: |
+    Our technical support team can help with that. 
+    Please describe the issue you're experiencing.
+  
+  billing: |
+    For billing inquiries, please check your account statement 
+    or contact our billing department.
+  
+  default: |
+    I'm here to help! Could you please provide more details 
+    about your question?
+  
+  fallback: |
+    I'm not sure I understand. Could you rephrase your question 
+    or contact our support team for assistance?

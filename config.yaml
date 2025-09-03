@@ -1,0 +1,25 @@
+data:
+  raw_data_path: "data/raw/sample_data.csv"
+  processed_path: "data/processed/"
+  test_size: 0.2
+  random_state: 42
+
+models:
+  intent_classifier_path: "C:\\resume projects & git\\ai customer-support-chatbot\\scripts\\models\\intent_classifier"
+  response_generator_path: "C:\\resume projects & git\\ai customer-support-chatbot\\scripts\\models\\response_generator"
+  fallback_path: "C:\\resume projects & git\\ai customer-support-chatbot\\scripts\\models\\fallback"
+
+training:
+  batch_size: 16
+  epochs: 10
+  learning_rate: 0.00002 
+
+chatbot:
+  confidence_threshold: 0.7
+  fallback_threshold: 0.4
+  max_response_length: 100
+
+app:
+  host: "0.0.0.0"
+  port: 5000
+  debug: true
